@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "enrolledCourses": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "enrolledCourses": [3]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to JavaScript",
+      "description": "Learn the basics of JavaScript.",
+      "thumbnail": "https://via.placeholder.com/150/00aaff/ffffff?text=JavaScript+Course",
+      "progress": {
+        "completed": 8,
+        "total": 10
+      }
+    },
+    {
+      "id": 2,
+      "title": "React Basics",
+      "description": "Build dynamic UIs with React.",
+      "thumbnail": "https://via.placeholder.com/150/ff00aa/ffffff?text=React+Course",
+      "progress": {
+        "completed": 3,
+        "total": 10
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mastering Python",
+      "description": "Become an expert in Python programming.",
+      "thumbnail": "https://via.placeholder.com/150/00ffaa/ffffff?text=Python+Course",
+      "progress": {
+        "completed": 0,
+        "total": 15
+      }
+    }
+  ],
+
+  "recommended_courses": [
+    {
+      "id": 1,
+      "thumbnail": "https://via.placeholder.com/300x200/282c34/ffffff?text=NodeJS+Course",
+      "title": "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL,...)",
+      "instructor": "Academind by Maximilian Schwarzmüller",
+      "rating": 4.6,
+      "reviews": 50127
+    },
+    {
+      "id": 2,
+      "thumbnail": "https://via.placeholder.com/300x200/61dafb/000000?text=React+Course",
+      "title": "React - The Complete Guide (Hooks, Redux, Next.js,...)",
+      "instructor": "Academind by Maximilian Schwarzmüller",
+      "rating": 4.8,
+      "reviews": 75000
+    },
+    {
+      "id": 3,
+      "thumbnail": "https://via.placeholder.com/300x200/4B8BBE/ffffff?text=Python+Course",
+      "title": "Python for Data Science and Machine Learning",
+      "instructor": "Jose Portilla",
+      "rating": 4.7,
+      "reviews": 150000
+    },
+    {
+      "id": 4,
+      "thumbnail": "https://via.placeholder.com/300x200/f39c12/ffffff?text=Web+Development",
+      "title": "The Complete Web Developer Bootcamp",
+      "instructor": "Colt Steele",
+      "rating": 4.9,
+      "reviews": 200000
+    },
+    {
+      "id": 5,
+      "thumbnail": "https://via.placeholder.com/300x200/092e20/ffffff?text=Django+Course",
+      "title": "Django for Beginners - Build Web Apps Fast",
+      "instructor": "William S. Vincent",
+      "rating": 4.5,
+      "reviews": 32000
+    }
+  ],
+  "courses_detail": {
+    "id": 1,
+    "title": "Front-End Web Development",
+    "sections": [
+      {
+        "id": 1,
+        "title": "Front-End Web Development",
+        "duration": "37 minutes",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "A Note About 2023 Course Updates",
+            "isCompleted": true,
+            "duration": "1 minute",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/QNk5czyHQ2KZOXM8h1NiWA.processed/full/540p/index.webm?Expires=1734134400&Signature=EjUEUa1uj4J-zKePpFyQyK-ZEDBqB7ENHUEVZdVMZS3LX0W0lL7GrfEeVD0Bhf2vxBtHqczgHJ2nJcggUlHNC00GUj4gXUnhNap-7IxBtcp4xp4ruMt3OnLM91fZbx26-cIKa60xraTuM~3cz5MORTUAeWP6mjbvPidx-O3AhlM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 2,
+            "title": "What is HTML?",
+            "isCompleted": true,
+            "duration": "4 minutes",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/kdtajPDNThqbWozwzb4arw.processed/full/540p/index.webm?Expires=1734134400&Signature=XuvjyZeJcSEJwjy8RRazdE7jYiMbYeZwoehhT1I6NG8gFowHQHYoi4yT9yIDvB-fz9NRCtc2OPNkFHedvoo1v~mFdrvZ17JNIG6xDD51D5-TEeJRYRV2W9e0aBC-K2U9KpJ8IAq7BQYa-mALIBHsQOE8P0R8nEK0fgwd8KKzaWw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 3,
+            "title": "How to Download the Course Resources",
+            "isCompleted": false,
+            "duration": "3 minutes",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/o8CzkmafRPaAs5Jmn1T28g.processed/full/540p/index.webm?Expires=1734134400&Signature=WZsuSWNcnI27BZpVoEm5ZbKam5B3JjCBlbGQOLUbF7K4HdKPN12biSx~eBERvy~t9xwVp1SdjmhxAE-i9JMCyIVhbg9DRX01-KvCGq5rh8Pesa7JR5V6HapNVoq9~9GDWaai6SZEEeqQ60ZkN3gboGjWuBu0vGa2q~yeMfJYMVI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 4,
+            "title": "HTML Heading Elements",
+            "isCompleted": false,
+            "duration": "14 minutes",
+            "resources": "Available",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/s-5WigQQRhyuVooEEJYctg.processed/full/540p/index.webm?Expires=1734134400&Signature=AfihGfNhcvsc7yGEqWvYlDo2hcJJUePG88PzrcFBbgfZB1QhL-DNi0VI8JEJ-Pvj0LnBP3d1ptRPzSd00Dru-FXUpXwZc4WAp4iQb1YPzxuZwz-FXB7wHYFkzJZgmMD-vviKjRKO1s9-NFbuU-IAau6auzNEaN9Dud-yXjJwYAA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 5,
+            "title": "HTML Paragraph Elements",
+            "isCompleted": false,
+            "duration": "9 minutes",
+            "resources": "Available",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/QNk5czyHQ2KZOXM8h1NiWA.processed/full/540p/index.webm?Expires=1734134400&Signature=EjUEUa1uj4J-zKePpFyQyK-ZEDBqB7ENHUEVZdVMZS3LX0W0lL7GrfEeVD0Bhf2vxBtHqczgHJ2nJcggUlHNC00GUj4gXUnhNap-7IxBtcp4xp4ruMt3OnLM91fZbx26-cIKa60xraTuM~3cz5MORTUAeWP6mjbvPidx-O3AhlM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 6,
+            "title": "Self Closing Tags",
+            "isCompleted": false,
+            "duration": "12 minutes",
+            "resources": "Available",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/kdtajPDNThqbWozwzb4arw.processed/full/540p/index.webm?Expires=1734134400&Signature=XuvjyZeJcSEJwjy8RRazdE7jYiMbYeZwoehhT1I6NG8gFowHQHYoi4yT9yIDvB-fz9NRCtc2OPNkFHedvoo1v~mFdrvZ17JNIG6xDD51D5-TEeJRYRV2W9e0aBC-K2U9KpJ8IAq7BQYa-mALIBHsQOE8P0R8nEK0fgwd8KKzaWw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          },
+          {
+            "id": 7,
+            "title": "Project Movie Ranking",
+            "isCompleted": false,
+            "duration": "Not specified",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/kdtajPDNThqbWozwzb4arw.processed/full/540p/index.webm?Expires=1734134400&Signature=XuvjyZeJcSEJwjy8RRazdE7jYiMbYeZwoehhT1I6NG8gFowHQHYoi4yT9yIDvB-fz9NRCtc2OPNkFHedvoo1v~mFdrvZ17JNIG6xDD51D5-TEeJRYRV2W9e0aBC-K2U9KpJ8IAq7BQYa-mALIBHsQOE8P0R8nEK0fgwd8KKzaWw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Introduction to HTML",
+        "duration": "49 minutes",
+        "lessons": [
+          {
+            "id": 8,
+            "title": "Lesson 1",
+            "isCompleted": false,
+            "duration": "Duration",
+            "videoUrl": "https://d3c33hcgiwev3.cloudfront.net/kdtajPDNThqbWozwzb4arw.processed/full/540p/index.webm?Expires=1734134400&Signature=XuvjyZeJcSEJwjy8RRazdE7jYiMbYeZwoehhT1I6NG8gFowHQHYoi4yT9yIDvB-fz9NRCtc2OPNkFHedvoo1v~mFdrvZ17JNIG6xDD51D5-TEeJRYRV2W9e0aBC-K2U9KpJ8IAq7BQYa-mALIBHsQOE8P0R8nEK0fgwd8KKzaWw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"
+          }
+        ]
+      }
+    ]
+  }
+}
